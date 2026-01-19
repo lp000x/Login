@@ -35,6 +35,9 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 section#log > div#img{
@@ -47,4 +50,11 @@ section#log > div#img{
 section#log > div#form{
     padding: 10px;
     display: block;
+}
+div#form > h1{
+    margin-bottom: 10px;
+}
+
+div#form > p{
+    
 }

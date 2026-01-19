@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+
+    #log{
+        width: 90vh;
+    }
+
+    section#log > div#img{
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-position: top;
+    }
+
+    #log > #form{
+        float: right;
+        width: 60%;
+    }
+
+    body{
+        background-image: linear-gradient(to bottom, grey, black);
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    #log{
+        width: 992px;
+    }
+
+    section#log > div#img{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-position: bottom;
+
+    }
+
+    section#log > div#form{
+        float: left;
+        width: 60%;
+    }
+    
+    body{
+        background-image: linear-gradient(to bottom, black, grey);
+    }
+}
